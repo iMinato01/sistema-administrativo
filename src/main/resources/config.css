@@ -1,0 +1,5 @@
+.tab {
+    -fx-padding: 10;
+    -fx-focus-color: transparent; /* Elimina el color del borde de foco */
+    -fx-faint-focus-color: transparent; /* Elimina el color de foco tenue */
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sistema.controladores.ModificarProveedorController">
+   <children>
+      <Label fx:id="lblTitulo" alignment="CENTER" prefHeight="40.0" prefWidth="410.0" text="Modificaciones">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="50.0" prefHeight="30.0" prefWidth="100.0" text="ID:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="90.0" prefHeight="30.0" prefWidth="100.0" text="Nombre:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="130.0" prefHeight="30.0" prefWidth="100.0" text="Telefono:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="170.0" prefHeight="30.0" prefWidth="100.0" text="Correo:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="210.0" prefHeight="30.0" prefWidth="100.0" text="RFC:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="250.0" prefHeight="30.0" prefWidth="100.0" text="Calle:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" text="No. Ext:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="330.0" prefHeight="30.0" prefWidth="100.0" text="Colonia:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="370.0" prefHeight="30.0" prefWidth="100.0" text="Municipio:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="410.0" prefHeight="30.0" prefWidth="100.0" text="C.P:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="450.0" prefHeight="30.0" prefWidth="100.0" text="Estado:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="120.0" layoutY="50.0" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="90.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="130.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="170.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="210.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="250.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="290.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="330.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="370.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="410.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <TextField disable="true" layoutX="120.0" layoutY="450.0" prefHeight="30.0" prefWidth="250.0" style="-fx-background-radius: 10;" />
+      <Button fx:id="btnModificar" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" disable="true" layoutX="155.0" layoutY="616.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBuscar" layoutX="265.0" layoutY="50.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="20.0" layoutY="490.0" prefHeight="30.0" prefWidth="100.0" text="Servicio:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea disable="true" layoutX="120.0" layoutY="498.0" prefHeight="101.0" prefWidth="250.0" promptText="Escriba aquí los servicios a los que se dedida la empresa" />
+   </children>
+</AnchorPane>
